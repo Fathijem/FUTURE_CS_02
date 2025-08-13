@@ -15,6 +15,18 @@ The goal is to:
 
 ---
 
+## Tools Used
+- **Splunk Enterprise (Free Trial)** – SIEM & log analysis
+- **Sample SOC Logs** – Provided dataset
+- **Markdown / GitHub** – Documentation
+
+---
+
+## Setup
+Full setup instructions are available in [`docs/setup_guide.md`](docs/setup_guide.md).
+
+---
+
 ## Features
 - **8 SOC Alerts**:
   1. AfterHour_Login
@@ -42,7 +54,22 @@ The goal is to:
 
 ---
 
-## Setup
-Full setup instructions are available in [`docs/setup_guide.md`](docs/setup_guide.md).
+## Alerts Implemented
+| Alert Name                   | Description |
+|------------------------------|-------------|
+| AfterHour_Login              | Detects unusual login attempts outside working hours |
+| Connection Attempt           | Internal network connection attempts after-hours |
+| External Connection Attempt  | External IP connection attempts after-hours |
+| Ransomware Detected          | Detects ransomware-related suspicious activity |
+| Rootkit Alert                | Detects rootkit signatures |
+| Spyware Detected             | Detects spyware activity |
+| Trojan Alert                 | Detects trojan activity |
+| Worm Infection Alert         | Detects worm infection attempts |
 
 ---
+
+## Incident Severity Mapping
+Refer to [`severity_mapping.md`](severity_mapping.md) for detailed classification rules.
+
+---
+
