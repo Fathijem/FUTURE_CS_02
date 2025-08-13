@@ -51,3 +51,15 @@ http://localhost:8000
 5. Click **Review → Submit** to finish import
 <img width="1911" height="415" alt="Splunk_Upload_Log_File5" src="https://github.com/user-attachments/assets/0be6c30a-dd02-4bd5-9e22-bb21a12504ea" />
 
+## 3. Create Field Extractions
+Once the data is imported, run the following SPL in **Search & Reporting** to extract key fields:
+* - It is used to return all the data
+<img width="1908" height="892" alt="Splunk_Search_Command" src="https://github.com/user-attachments/assets/a7c012d4-41bc-4a17-90d1-7bb4b87dcac9" />
+
+
+To add a particular id or variable to filter search, right click on it and click add to search and enter to find the filtered results
+<img width="1912" height="812" alt="Splunk_Search_Command2" src="https://github.com/user-attachments/assets/49ddd806-7092-40d8-8013-61e36761d78f" />
+
+
+By default it will show the results of uploaded file or system logs:
+<img width="1907" height="887" alt="Splunk_Search" src="https://github.com/user-attachments/assets/cb488dad-b767-48fd-adcd-ee96048da668" />
