@@ -22,6 +22,8 @@ source="SOC_Task2_Sample_Logs.csv"
 | search malware_type="Spyware"
 | table _time user ip action threat malware_type
 ```
+<img width="1881" height="785" alt="image" src="https://github.com/user-attachments/assets/3d029b9e-ad8e-407d-9ae9-f0d25be40726" />
+
 
 ## Trigger Condition
 Any spyware detection in logs.
