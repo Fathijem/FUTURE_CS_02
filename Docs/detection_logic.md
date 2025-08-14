@@ -91,7 +91,7 @@ source="SOC_Task2_Sample_Logs.csv"
 ```
 
 
-5. Rootkit Detection
+## 5. Rootkit Detection
 
 Description: Detects threats with “Rootkit” signatures.
 Severity: High.
@@ -111,7 +111,7 @@ source="SOC_Task2_Sample_Logs.csv"
 | table _time user ip action threat malware_type
 ```
 
-6. Spyware Detection
+## 6. Spyware Detection
 
 Description: Detects threats with “Spyware” in the threat field.
 Severity: High.
@@ -131,7 +131,7 @@ source="SOC_Task2_Sample_Logs.csv"
 | table _time user ip action threat malware_type
 ```
 
-7. Trojan Detection
+## 7. Trojan Detection
 
 Description: Detects threats with “Trojan” in the threat field.
 Severity: High.
@@ -151,7 +151,7 @@ source="SOC_Task2_Sample_Logs.csv"
 | table _time user ip action threat malware_type
 ```
 
-8. Worm Infection Detection
+## 8. Worm Infection Detection
 
 Description: Detects threats with “Worm” in the threat field.
 Severity: High.
