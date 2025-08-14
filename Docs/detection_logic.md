@@ -24,8 +24,9 @@ source="SOC_Task2_Sample_Logs.csv"
 
 
 ## 2. Internal Connection Attempt
-Description: Detects connection attempt events from private IP ranges.
-Severity: Low.
+**Description:** Detects connection attempt events from private IP ranges.
+
+**Severity:** Low.
 ``` spl
 source="SOC_Task2_Sample_Logs.csv"
 | rex field=_raw "user=(?<user>\S+)"
@@ -48,8 +49,9 @@ source="SOC_Task2_Sample_Logs.csv"
 <img width="1893" height="837" alt="Unusual_Connection Attempt_InternalNetwork" src="https://github.com/user-attachments/assets/250bcd8e-8bc0-4542-a93a-569ed635b1f4" />
 
 ## 3. External Connection Attempt
-Description: Detects connection attempt events from public IP addresses.
-Severity: Medium.
+**Description:** Detects connection attempt events from public IP addresses.
+
+**Severity:** Medium.
 ```spl
 source="SOC_Task2_Sample_Logs.csv"
 | rex field=_raw "user=(?<user>\S+)"
@@ -71,8 +73,9 @@ source="SOC_Task2_Sample_Logs.csv"
 <img width="1882" height="866" alt="Unusual_Connection Attempt_ExternalNetwork" src="https://github.com/user-attachments/assets/60a9a323-9bfb-432b-ac84-c1c195f9314a" />
 
 ## 4. Ransomware Detection
-Description: Detects threats with “Ransomware” in the threat field.
-Severity: High.
+**Description:** Detects threats with “Ransomware” in the threat field.
+
+**Severity:** High.
 ```spl
 source="SOC_Task2_Sample_Logs.csv"
 | rex field=_raw "user=(?<user>\S+)"
@@ -92,9 +95,9 @@ source="SOC_Task2_Sample_Logs.csv"
 
 
 ## 5. Rootkit Detection
+**Description:** Detects threats with “Rootkit” signatures.
 
-Description: Detects threats with “Rootkit” signatures.
-Severity: High.
+**Severity:** High.
 ```spl
 source="SOC_Task2_Sample_Logs.csv"
 | rex field=_raw "user=(?<user>\S+)"
@@ -112,9 +115,9 @@ source="SOC_Task2_Sample_Logs.csv"
 ```
 
 ## 6. Spyware Detection
+**Description:** Detects threats with “Spyware” in the threat field.
 
-Description: Detects threats with “Spyware” in the threat field.
-Severity: High.
+**Severity:** High.
 ```spl
 source="SOC_Task2_Sample_Logs.csv"
 | rex field=_raw "user=(?<user>\S+)"
@@ -132,9 +135,8 @@ source="SOC_Task2_Sample_Logs.csv"
 ```
 
 ## 7. Trojan Detection
-
-Description: Detects threats with “Trojan” in the threat field.
-Severity: High.
+**Description:** Detects threats with “Trojan” in the threat field.
+**Severity:** High.
 ```spl
 source="SOC_Task2_Sample_Logs.csv"
 | rex field=_raw "user=(?<user>\S+)"
@@ -152,9 +154,9 @@ source="SOC_Task2_Sample_Logs.csv"
 ```
 
 ## 8. Worm Infection Detection
+**Description:** Detects threats with “Worm” in the threat field.
 
-Description: Detects threats with “Worm” in the threat field.
-Severity: High.
+**Severity:** High.
 ```spl
 source="SOC_Task2_Sample_Logs.csv"
 | rex field=_raw "user=(?<user>\S+)"
