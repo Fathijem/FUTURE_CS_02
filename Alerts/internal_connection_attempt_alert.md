@@ -34,7 +34,7 @@ Set schedule: Every 15 mins or real time a
 
 
 ## Viewing Alerts
-All alerts can be viewed by clicking on the activity (top right corner). In the drop view, click on triggered alerts -> AfterHour Login -> View results to analyse the alerts and the details.
+All alerts can be viewed by clicking on the activity (top right corner) for more details steps go to [`alerts/afterhour_login.md`](alerts/afterhour_login.md). In the drop view, click on triggered alerts -> ConnectionAttempt Login -> View results to analyse the alerts and the details.
 <img width="1880" height="515" alt="image" src="https://github.com/user-attachments/assets/e917c2cb-cb24-44f7-9b6e-8be7b45ab292" />
 
 
