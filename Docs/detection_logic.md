@@ -136,6 +136,7 @@ source="SOC_Task2_Sample_Logs.csv"
 
 ## 7. Trojan Detection
 **Description:** Detects threats with “Trojan” in the threat field.
+
 **Severity:** High.
 ```spl
 source="SOC_Task2_Sample_Logs.csv"
