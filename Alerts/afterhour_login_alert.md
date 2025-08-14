@@ -29,6 +29,13 @@ Trigger: Choose pre-result for uploaded log files. If you're analysing real-time
 Schedule: Every 15 minutes or real-time
 <img width="996" height="744" alt="image" src="https://github.com/user-attachments/assets/5d9e88bc-ca2b-4b23-bd9d-52f52ad7ee2a" />
 
+## Viewing Alerts
+All alerts can be viewed by clicking on the activity (top right corner). In the drop view, click on triggered alerts -> AfterHour Login -> View results to analyse the alerts and the details.
+<img width="1887" height="882" alt="image" src="https://github.com/user-attachments/assets/2a1cff11-1b1d-4805-870e-5edadc3ea585" />
+
+You can also visualize the results by clicking the "Visualization" next to "Statistics"
+<img width="1887" height="535" alt="image" src="https://github.com/user-attachments/assets/e379504b-b5b3-4eb1-9854-49820b8a001f" />
+
 
 ## Recommended Response
 1. Validate the login with the user.
