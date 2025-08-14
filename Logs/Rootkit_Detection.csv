@@ -1,0 +1,7 @@
+"_time",user,ip,action,threat,"malware_type"
+"2025-07-03T07:51:14.000+0530",eve,"10.0.0.5","malware detected ","Rootkit Signature",Rootkit
+"2025-07-03T04:19:14.000+0530",alice,"198.51.100.42","malware detected ","Rootkit Signature",Rootkit
+"2025-07-03T04:19:14.000+0530",alice,"198.51.100.42","malware detected ","Rootkit Signature",Rootkit
+"2025-07-03T07:51:14.000+0530",eve,"10.0.0.5","malware detected ","Rootkit Signature",Rootkit
+"2025-07-03T07:51:14.000+0530",eve,"10.0.0.5","malware detected ","Rootkit Signature",Rootkit
+"2025-07-03T04:19:14.000+0530",alice,"198.51.100.42","malware detected ","Rootkit Signature",Rootkit

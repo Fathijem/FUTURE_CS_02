@@ -1,0 +1,4 @@
+"_time",user,ip,action,threat,"malware_type"
+"2025-07-03T04:41:14.000+0530",alice,"172.16.0.3","malware detected ","Spyware Alert",Spyware
+"2025-07-03T04:41:14.000+0530",alice,"172.16.0.3","malware detected ","Spyware Alert",Spyware
+"2025-07-03T04:41:14.000+0530",alice,"172.16.0.3","malware detected ","Spyware Alert",Spyware

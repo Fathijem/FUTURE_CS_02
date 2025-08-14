@@ -1,0 +1,4 @@
+"_time",user,ip,action,threat,"malware_type"
+"2025-07-03T09:10:14.000+0530",bob,"172.16.0.3","malware detected ","Ransomware Behavior",Ransomware
+"2025-07-03T09:10:14.000+0530",bob,"172.16.0.3","malware detected ","Ransomware Behavior",Ransomware
+"2025-07-03T09:10:14.000+0530",bob,"172.16.0.3","malware detected ","Ransomware Behavior",Ransomware
