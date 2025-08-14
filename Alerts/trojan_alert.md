@@ -22,6 +22,9 @@ source="SOC_Task2_Sample_Logs.csv"
 | search malware_type="Trojan"
 | table _time user ip action threat malware_type
 ```
+<img width="1892" height="783" alt="image" src="https://github.com/user-attachments/assets/4b51b6a3-c0be-452e-ad0f-0d74db96ce71" />
+
+
 ## Trigger Condition
 Any trojan detection in logs.
 <img width="997" height="748" alt="image" src="https://github.com/user-attachments/assets/cb6cfba7-5b76-48cf-8661-d028e18b04f1" />
