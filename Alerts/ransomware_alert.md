@@ -22,6 +22,8 @@ source="SOC_Task2_Sample_Logs.csv"
 | search malware_type="Ransomware"
 | table _time user ip action threat malware_type
 ```
+<img width="1897" height="782" alt="image" src="https://github.com/user-attachments/assets/1ba83886-74ba-4a76-b589-9666a5d4e5e9" />
+
 
 ## Trigger Condition
 Any detection of ransomware.
