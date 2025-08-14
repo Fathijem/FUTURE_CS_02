@@ -1,7 +1,7 @@
 # Rootkit Alert
 
 ## Description
-Triggers when "Rootkit" is detected in the threat field.
+Rootkit is a stealthy malware designed to hide its presence and enable persistent privileged access to a system, often bypassing standard detection methods. Alerts are trigged when "Rootkit" is detected in the threat field or any suspicious activites happening in the system.
 
 ## Severity
 **Critical**
