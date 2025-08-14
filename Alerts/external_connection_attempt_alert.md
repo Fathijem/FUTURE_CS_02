@@ -23,6 +23,9 @@ source="SOC_Task2_Sample_Logs.csv"
 | table _time user ip action severity
 | sort _time
 ```
+<img width="1882" height="866" alt="image" src="https://github.com/user-attachments/assets/ff52e355-8cce-47bd-917e-4399ae5640f9" />
+
+
 
 ## Trigger Condition
 Any event from an IP that is not in private ranges.
