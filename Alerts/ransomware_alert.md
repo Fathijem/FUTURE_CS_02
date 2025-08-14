@@ -1,7 +1,7 @@
 # Ransomware Alert
 
 ## Description
-Triggers when a log contains the keyword "Ransomware" in the threat field.
+Ransomware is a malware that encrypts files or locks systems, demanding payment (ransom) from the victim to restore access. Triggers alert when a log contains the keyword "Ransomware" in the threat field.
 
 ## Severity
 **High**
