@@ -33,6 +33,11 @@ Set schedule: Every 15 mins or real time a
 <img width="999" height="755" alt="image" src="https://github.com/user-attachments/assets/b5304d10-a008-424b-afae-13799847e638" />
 
 
+## Viewing Alerts
+All alerts can be viewed by clicking on the activity (top right corner). In the drop view, click on triggered alerts -> AfterHour Login -> View results to analyse the alerts and the details.
+<img width="1880" height="515" alt="image" src="https://github.com/user-attachments/assets/e917c2cb-cb24-44f7-9b6e-8be7b45ab292" />
+
+
 ## Recommended Response
 Verify the source and intended target.
 Ensure access controls are correctly applied.
