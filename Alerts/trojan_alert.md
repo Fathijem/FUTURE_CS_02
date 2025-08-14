@@ -1,7 +1,7 @@
 # Trojan Alert
 
 ## Description
-Triggers when "Trojan" is detected in the threat field.
+Trojan is a malware disguised as legitimate software that allows attackers to gain unauthorized access or control over a system. Often used to drop additional malicious payloads. Triggers alert when "Trojan" is detected in the threat field.
 
 ## Severity
 **High**
