@@ -22,6 +22,8 @@ source="SOC_Task2_Sample_Logs.csv"
 | search malware_type="Worm Infection"
 | table _time user ip action threat malware_type
 ```
+<img width="1888" height="783" alt="image" src="https://github.com/user-attachments/assets/616dbbfc-d907-48a2-bb5f-0b2fcc83c999" />
+
 
 ## Trigger Condition
 Any worm detection in logs.
