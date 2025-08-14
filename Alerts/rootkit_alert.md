@@ -22,6 +22,8 @@ source="SOC_Task2_Sample_Logs.csv"
 | search malware_type="Rootkit"
 | table _time user ip action threat malware_type
 ```
+<img width="1882" height="866" alt="image" src="https://github.com/user-attachments/assets/1f6633bd-2f52-4adb-8b16-a04c26d6e8ba" />
+
 
 ## Trigger Condition
 Any rootkit detection in logs.
