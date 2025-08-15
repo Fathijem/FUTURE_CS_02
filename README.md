@@ -69,7 +69,7 @@ Full setup instructions are available in [`docs/setup_guide.md`](docs/setup_guid
 ---
 
 ## Incident Severity Mapping
-Refer to [`severity_mapping.md`](severity_mapping.md) for detailed classification rules.
+Refer to [`docs/severity_mapping.md`](docs/severity_mapping.md) for detailed classification rules.
 
 ---
 
