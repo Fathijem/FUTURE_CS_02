@@ -68,8 +68,30 @@ Full setup instructions are available in [`docs/setup_guide.md`](docs/setup_guid
 
 ---
 
-## Incident Severity Mapping
-Refer to [`docs/severity_mapping.md`](docs/severity_mapping.md) for detailed classification rules.
+## Threats Found
 
----
+### **After-Hour Login**
+- Multiple successful logins from `203.0.113.77` and `198.51.100.42`
+- Failed login bursts from internal IPs
+
+### **Internal Connection Attempt**
+- Internal connection attempts from `172.16.0.3` to multiple hosts
+
+### **External Connection Attempt**
+- External IP attempts from `198.51.100.42` and `203.0.113.77`
+
+### **Ransomware**
+- Detected ransomware behavior on `172.16.0.3` (user: `bob`)
+
+### **Rootkit**
+- Rootkit signatures from `198.51.100.42`
+
+### **Spyware**
+- Spyware activity on `172.16.0.3` (user: `alice`)
+
+### **Trojan**
+- Trojan infections from `192.168.1.101` (user: `alice`)
+
+### **Worm Infection**
+- Worm infection attempts from `203.0.113.77`
 
